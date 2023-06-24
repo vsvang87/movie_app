@@ -1,0 +1,21 @@
+.movie-container {
+  min-height: 100vh;
+  background: rgb(26, 25, 25);
+  padding: 2rem 0;
+}
+.movie-list-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.movie-list-content .movie-list-card {
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+.movie-list-content .movie-list-card:hover {
+  transform: scale(1.02);
+}
+.movie-list-content .movie-list-card img {
+  width: 100%;
+}
